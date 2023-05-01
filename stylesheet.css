@@ -1,0 +1,94 @@
+h2 {
+    margin: 30px;
+    padding-left: 20px;
+}
+
+p {
+    margin: 30px;
+}
+
+h1, h2, button {
+    font-family: 'Urbanist', sans-serif;
+}
+
+p, li, a {
+    font-family: 'Karla', sans-serif;
+}
+
+.bp {
+    width: 100%;
+    height: auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.flex {
+    list-style-type: none;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#menu-icon {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: darkorchid;
+}
+
+a:visited {
+    text-decoration: none;
+    color: darkorchid;
+}
+
+button {
+    background-color: plum;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+    padding: 15px;
+    min-height: 30px;
+    min-width: 120px;
+}
+
+.btn-container-div {
+    text-align: center;
+}
+
+
+
+button:hover {
+    background-color: cadetblue;
+    transition: 0.7s;
+}
+
+button:active {
+    background-color: dimgray;
+}
+
+footer {
+    background-color: black;
+}
+
+p.footer {
+    color: white;
+}
+
+ul.footer {
+    padding: 20px;
+}
